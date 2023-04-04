@@ -79,7 +79,7 @@ const Team = () => {
         height="75vh"
         sx={{
           "& .MuiDataGrid-root": { border: "none" },
-          "& .MuiDataGrid-cell": { borderBottom: "none" },
+          "& .MuiDataGrid-cell": { borderBottom: "transparent" },
           "& .name-column--cell": {
             color: colors.greenAccent[300],
           },
